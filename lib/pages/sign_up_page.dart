@@ -45,7 +45,7 @@ class SignUpPage extends StatelessWidget {
               height: 50,
               padding: EdgeInsets.symmetric(horizontal: 16),
               decoration: BoxDecoration(
-                  color: backgoundColor2,
+                  color: backgroundColor2,
                   borderRadius: BorderRadius.circular(12)),
               child: Center(
                 child: Row(
@@ -91,7 +91,7 @@ class SignUpPage extends StatelessWidget {
               height: 50,
               padding: EdgeInsets.symmetric(horizontal: 16),
               decoration: BoxDecoration(
-                  color: backgoundColor2,
+                  color: backgroundColor2,
                   borderRadius: BorderRadius.circular(12)),
               child: Center(
                 child: Row(
@@ -137,7 +137,7 @@ class SignUpPage extends StatelessWidget {
               height: 50,
               padding: EdgeInsets.symmetric(horizontal: 16),
               decoration: BoxDecoration(
-                  color: backgoundColor2,
+                  color: backgroundColor2,
                   borderRadius: BorderRadius.circular(12)),
               child: Center(
                 child: Row(
@@ -183,7 +183,7 @@ class SignUpPage extends StatelessWidget {
               height: 50,
               padding: EdgeInsets.symmetric(horizontal: 16),
               decoration: BoxDecoration(
-                  color: backgoundColor2,
+                  color: backgroundColor2,
                   borderRadius: BorderRadius.circular(12)),
               child: Center(
                 child: Row(
@@ -260,7 +260,7 @@ class SignUpPage extends StatelessWidget {
     }
 
     return Scaffold(
-        backgroundColor: backgoundColor1,
+        backgroundColor: backgroundColor1,
         resizeToAvoidBottomInset: false,
         body: SafeArea(
           child: Container(
