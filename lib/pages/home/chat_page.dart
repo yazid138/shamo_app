@@ -80,12 +80,8 @@ class ChatPage extends StatelessWidget {
               color: backgroundColor3,
               width: double.infinity,
               child: ListView(
-                padding: EdgeInsets.symmetric(
-                  horizontal: defaultMargin
-                ),
-                children: [
-                  ChatTile()
-                ],
+                padding: EdgeInsets.symmetric(horizontal: defaultMargin),
+                children: [ChatTile()],
               )));
     }
 
