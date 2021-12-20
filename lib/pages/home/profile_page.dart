@@ -41,7 +41,8 @@ class ProfilePage extends StatelessWidget {
                 ),
                 GestureDetector(
                   onTap: () {
-                    Navigator.pushNamedAndRemoveUntil(context, '/sign-in', (route) => false);
+                    Navigator.pushNamedAndRemoveUntil(
+                        context, '/sign-in', (route) => false);
                   },
                   child: Image.asset(
                     'assets/button_exit.png',
@@ -94,17 +95,19 @@ class ProfilePage extends StatelessWidget {
                   primaryTextStyle.copyWith(fontWeight: semibold, fontSize: 16),
             ),
             GestureDetector(
-              onTap: () {
-                Navigator.pushNamed(context, '/edit-profile');
-              },
+                onTap: () {
+                  Navigator.pushNamed(context, '/edit-profile');
+                },
                 child: menuItem('Edit Profile')),
             menuItem('Your Orders'),
             menuItem('Help'),
-            SizedBox(height: 30,),
+            SizedBox(
+              height: 30,
+            ),
             Text(
               'General',
               style:
-              primaryTextStyle.copyWith(fontWeight: semibold, fontSize: 16),
+                  primaryTextStyle.copyWith(fontWeight: semibold, fontSize: 16),
             ),
             menuItem('Privacy & Policy'),
             menuItem('Term of Service'),

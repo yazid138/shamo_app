@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:shamo_app/theme.dart';
 import 'package:shamo_app/widgets/wishlist_card.dart';
